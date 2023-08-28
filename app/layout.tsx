@@ -8,8 +8,8 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'SOTO',
-  description: "SOTO's personal website",
+  title: 'Davy.ConFig',
+  description: "Le Blog-Note d'un intermittent du logiciel libre",
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

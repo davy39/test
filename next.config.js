@@ -6,8 +6,7 @@ module.exports = {
     dirs: ['app', 'components', 'layouts', 'scripts'],
   },
   images: {
-    loader: 'default', // Assuming you have loaders for your local images
-    path: '/static/images', // Adjust this path based on your setup
+    unoptimized: true,
   },
   experimental: {
     appDir: true,
